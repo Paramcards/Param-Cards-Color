@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Style.css">
+    <title>Param Cards</title>
+</head>
+<body>
+    <div class="main-div">
+        <div class="main">
+            <div class="banner">
+                <!-- LOGO -->
+<img src="./Assets/100px X100px JPEG File.jpg">
+            </div>
+
+
+
+
+
+           <div class="profile-section">
+            <div class="profile">
+
+<!-- PROFILE IMAGE -->
+
+
+                <img src="./Assets/PCAP LOGO - 2.jpg">
+    
+            </div>
+            <br/>
+
+
+<!-- NAME -->
+            <h2>Dhruv Pathak</h2>
+
+            <!-- WORK -->
+
+
+            <h3>PROPRIETOR</h3>
+
+
+            <!-- COMPANY NAME-->
+
+
+
+            <h4>PARAM CARDS AND PRINTS</h4>
+
+           </div>
+           <br/>
+           <br/>
+
+<div class="social">
+    <div class="cal">
+
+
+
+        <!-- CALLING NUMBER -->
+
+
+       <a href="tel:+919833765543"> <img src="./Assets/Call.png" alt=""></a>
+        <p>Call</p>
+    </div>
+    <div class="cal">
+
+        <!-- SMS NUMBER -->
+
+
+        <a href="sms:+919833765543">  <img src="./Assets/SMS.png" alt=""></a>
+        <p>SMS</p>
+    </div>
+    <div class="cal">
+
+
+
+        <!-- EMAIL ID -->
+
+        <a href="mailto:paramcards@gmail.com">  
+              <img src="./Assets/Email.png" alt="">
+        </a>
+
+        <p>E-mail</p>
+    </div>
+    <div class="cal">
+
+
+
+        <!-- WEBSITE-->
+
+        <a href="https://www.paramcards.com/">   <img src="./Assets/Website.png" alt="">      </a>
+        <p>Website</p>
+    </div>
+
+</div>
+<br/>
+
+<div class="social sol">
+    <div class="cal">
+
+
+        <!-- LOCATION -->
+
+        <a href="https://maps.app.goo.gl/eqk2wuBhri5zvB5G8">
+            <img src="./Assets/Location.png" alt=""></a>
+        <p>Location</p>
+    </div>
+    <div class="cal save">
+
+
+        <!-- SAVE CONTACT -->
+
+        <a href="./Assets/contacts.csv">  <img src="./Assets/Save Contact.png" alt=""></a>
+        <p>SAVE<br/>CONTACT</p>
+    </div>
+
+    <div class="cal">
+        <!-- PAYEMNT -->
+
+
+        <!-- <a href="">   <img src="./Assets/Payment.png" alt="">      </a>
+        <p>Payment</p> -->
+        <div class="cal" onclick="openImage()">
+            <a href="#"><img src="./Assets/Payment.png" alt=""></a>
+            <p>Payment</p>
+        </div>
+    
+        <div id="imageContainer" onclick="closeImage()">
+            <img id="fullImage" src="" alt="">
+        </div>
+    </div>
+
+</div>
+
+
+
+<br/>
+<div class="social2">
+    
+    <div class="cal1">
+        
+
+        <!-- LINKEDIN -->
+
+
+
+        <a href="#">  <img src="./Assets/Linked In.png" alt=""></a>
+       
+    </div>
+
+    <div class="cal1">
+
+        <!-- INSTAGRAM URL -->
+
+        <a href="#">   <img src="./Assets/Insta Logo -2.jpg" alt="">      </a>
+  
+    </div>
+    <div class="cal1 wa">
+
+
+        <!-- WHATSAPP NUMBER -->
+
+
+
+        <a href="https://api.whatsapp.com/send?phone=919833765543">
+            <img src="./Assets/Whats App.png" alt=""></a>
+       
+    </div>
+    <div class="cal1">
+
+        <!-- TWITTER -->
+
+        <a href="#">   <img src="./Assets/Tweeter.png" alt="">      </a>
+  
+    </div>
+    <div class="cal1">
+
+        <!-- FACEBOOK -->
+
+        <a href="#">   <img src="./Assets/Facebook.png" alt="">      </a>
+  
+    </div>
+
+</div>
+
+
+
+
+        </div>
+       
+
+    </div>
+
+
+
+    <script>
+        function openImage() {
+            var imageContainer = document.getElementById("imageContainer");
+            var fullImage = document.getElementById("fullImage");
+            
+            // Set the source of the full image
+
+
+            // QR IMG
+            fullImage.src = "./Assets/100px X100px JPEG File.jpg";
+
+            // Display the image container
+            imageContainer.style.display = "flex";
+        }
+
+        function closeImage() {
+            var imageContainer = document.getElementById("imageContainer");
+
+            // Hide the image container
+            imageContainer.style.display = "none";
+        }
+    </script>
+
+    
+</body>
+</html>
